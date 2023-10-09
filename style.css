@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 50px;
+}
+
+ .button {
+    width: 100px;
+    height: 100px;
+    background-color: black ;
+}
+
+.one{
+    background-color: red;
+}
+
+.two{
+    background-color: yellow;
+}
+
+.three{
+    background-color: blue;
+}
+
+.four{
+    background-color: gray;
+}
